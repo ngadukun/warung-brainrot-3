@@ -42,3 +42,5 @@ writeFileSync(
   join(out, 'dossier.json'),
   buildDossier(out, { text_max_bytes: 65536, screenshots: { max: 4, max_bytes: 262144 }, max_instances: 500000, scripts_max_source_bytes: 8388608, scripts_max_path_chars: 1048576 }),
 );
+
+console.log(`Warung Brainrot: place, sources, screenshots and dossier.json written to ${out}`);
